@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+.banner {
+    background-image: url("../img/brand/footer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:767px) {
+
+    .content-footer {
+        text-align: center;
+    }
+
+    iframe {
+        margin-top: 15px;
+    }
+}
+
+.card-columns-custom .card {
+    margin-bottom: 1.25rem
+}
+
+@media (min-width:576px) {
+    .card-columns-custom {
+        column-count: 2;
+        column-gap: 1.25rem;
+        orphans: 1;
+        widows: 1
+    }
+
+    .card-columns-custom .card {
+        display: inline-block;
+        width: 100%
+    }
+}
+
+@media (min-width:576px) {
+    .card-columns-custom {
+        column-count: 1
+    }
+}
+
+@media (min-width:768px) {
+    .card-columns-custom {
+        column-count: 2
+    }
+}
+
+@media (min-width:1200px) {
+    .card-columns-custom {
+        column-count: 2;
+        column-gap: 1.25rem
+    }
+}
+
+.badge-yellow {
+    color: #8a7104;
+    background-color: #ffd600
+}
+
+.badge-pink {
+    color: #ca1138;
+    background-color: #f3a4b5
+}
+
+.badge-purple {
+    color: #361b75;
+    background-color: #8965e0
+}
+
+.card-profile-image .card {
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    max-width:400px;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.position-ref {
+    position: relative;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.full-height {
+    height: 88vh;
+}
+.code {
+    border-right: 2px solid;
+    font-size: 30px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+}
+.message {
+    padding: 15px 15px 0 15px;
+    text-align: center;
+}
